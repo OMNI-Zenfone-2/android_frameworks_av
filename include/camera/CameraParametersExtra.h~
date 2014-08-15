@@ -16,6 +16,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+<<<<<<< HEAD
+
+#ifndef ANDROID_HARDWARE_CAMERA_PARAMETERS_EXTRA_H
+#define ANDROID_HARDWARE_CAMERA_PARAMETERS_EXTRA_H
+
+=======
+>>>>>>> 30d3d7d... camera: allow device to append camera parameters
 /*
 #define CAMERA_PARAMETERS_EXTRA_C \
 const char CameraParameters::KEY_SUPPORTED_BURST_NUM[] = "supported-burst-num"; \
@@ -24,6 +31,7 @@ const char CameraParameters::KEY_SUPPORTED_HDR_MODES[] = "supported-hdr-modes"; 
 const char CameraParameters::KEY_HDR_MODE[] = "hdr-mode"; \
 const char CameraParameters::HDR_MODE_OFF[] = "hdr-mode-off"; \
 const char CameraParameters::HDR_MODE_HDR[] = "hdr-mode-hdr";
+
 #define CAMERA_PARAMETERS_EXTRA_H \
     static const char KEY_SUPPORTED_BURST_NUM[]; \
     static const char KEY_BURST_NUM[]; \
@@ -32,3 +40,8 @@ const char CameraParameters::HDR_MODE_HDR[] = "hdr-mode-hdr";
     static const char HDR_MODE_OFF[]; \
     static const char HDR_MODE_HDR[];
 */
+<<<<<<< HEAD
+
+#endif
+=======
+>>>>>>> 30d3d7d... camera: allow device to append camera parameters
